@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Misaka09982的进步日记 • All posts by \"coding\" tag",
+    "description": "记录自己的每一次成长",
+    "home_page_url": "https://blog.misaka-fans.space",
+    "items": [
+        {
+            "id": "https://blog.misaka-fans.space/2023/12/08/pnpm-study-note/",
+            "url": "https://blog.misaka-fans.space/2023/12/08/pnpm-study-note/",
+            "title": "一些在实践中学到的pnpm使用技巧",
+            "date_published": "2023-12-08T12:57:21.000Z",
+            "content_html": "<h1 id=\"0-前言\"><a class=\"markdownIt-Anchor\" href=\"#0-前言\">#</a> 0、前言</h1>\n<p>本文章按照 ubuntu 编写，其他系统请自行更换 brew 等工具</p>\n<h1 id=\"安装pnpm管理器\"><a class=\"markdownIt-Anchor\" href=\"#安装pnpm管理器\">#</a> 安装 pnpm 管理器</h1>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">npm i -g pnpm</span><br></pre></td></tr></table></figure>\n<p>全局安装 pnpm。<b>首先要记得提前安装 npm，nodejs&gt;10</b></p>\n<h1 id=\"使用npm安装-卸载包\"><a class=\"markdownIt-Anchor\" href=\"#使用npm安装-卸载包\">#</a> 使用 npm 安装、卸载包</h1>\n<p>安装：</p>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">pnpm install &lt;package-name&gt;</span><br></pre></td></tr></table></figure>\n<p>卸载：</p>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">pnpm remove &lt;package-name&gt;</span><br></pre></td></tr></table></figure>\n<p>安装所有项目依赖:</p>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">pnpm install</span><br></pre></td></tr></table></figure>\n<p>在运行项目前推荐优先运行！</p>\n<p>若要全局使用，加上 - g 参数。</p>\n<h1 id=\"运行脚本\"><a class=\"markdownIt-Anchor\" href=\"#运行脚本\">#</a> 运行脚本</h1>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">pnpm &lt;name&gt;</span><br></pre></td></tr></table></figure>\n<h1 id=\"end\"><a class=\"markdownIt-Anchor\" href=\"#end\">#</a> End</h1>\n<p>目前常用的命令就是这些，之后学到会加以补充。</p>\n",
+            "tags": [
+                "coding"
+            ]
+        }
+    ]
+}

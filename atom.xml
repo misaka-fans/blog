@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.misaka-fans.space</id>
+    <title>Misaka09982的进步日记</title>
+    <link href="https://blog.misaka-fans.space" />
+    <updated>2024-02-16T03:23:12.329Z</updated>
+    <category term="Linux" />
+    <category term="coding" />
+    <category term="gossip" />
+    <entry>
+        <id>https://blog.misaka-fans.space/2024/02/16/hello-world/</id>
+        <title>Hello World</title>
+        <link rel="alternate" href="https://blog.misaka-fans.space/2024/02/16/hello-world/"/>
+        <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
+&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
+</content>
+        <updated>2024-02-16T03:23:12.329Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.misaka-fans.space/2024/01/24/GRUB-background-edit/</id>
+        <title>GRUB引导界面美化时可能发生的问题</title>
+        <link rel="alternate" href="https://blog.misaka-fans.space/2024/01/24/GRUB-background-edit/"/>
+        <content type="html">&lt;p&gt;在美化页面时，我们可能无法找到自己喜欢的主题。此时，可通过更换主题的背景来解决。&lt;/p&gt;
+&lt;p&gt;在使用了’’‘tar’’&#39; 命令解压了原本主题的 tar.gz 压缩包后，打开文件夹找到 background.jpg，并用自己的图片代替他。&lt;/p&gt;
+&lt;p&gt;在这一步，最好记得使用和原图一样格式，一样分辨率的图片防止 GRUB 识别不到图片。&lt;/p&gt;
+</content>
+        <category term="Linux" />
+        <updated>2024-01-24T00:07:18.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.misaka-fans.space/2023/12/08/pnpm-study-note/</id>
+        <title>一些在实践中学到的pnpm使用技巧</title>
+        <link rel="alternate" href="https://blog.misaka-fans.space/2023/12/08/pnpm-study-note/"/>
+        <content type="html">&lt;h1 id=&#34;0-前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#0-前言&#34;&gt;#&lt;/a&gt; 0、前言&lt;/h1&gt;
+&lt;p&gt;本文章按照 ubuntu 编写，其他系统请自行更换 brew 等工具&lt;/p&gt;
+&lt;h1 id=&#34;安装pnpm管理器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#安装pnpm管理器&#34;&gt;#&lt;/a&gt; 安装 pnpm 管理器&lt;/h1&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;npm i -g pnpm&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;全局安装 pnpm。&lt;b&gt;首先要记得提前安装 npm，nodejs&amp;gt;10&lt;/b&gt;&lt;/p&gt;
+&lt;h1 id=&#34;使用npm安装-卸载包&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用npm安装-卸载包&#34;&gt;#&lt;/a&gt; 使用 npm 安装、卸载包&lt;/h1&gt;
+&lt;p&gt;安装：&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;pnpm install &amp;lt;package-name&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;卸载：&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;pnpm remove &amp;lt;package-name&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;安装所有项目依赖:&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;pnpm install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;在运行项目前推荐优先运行！&lt;/p&gt;
+&lt;p&gt;若要全局使用，加上 - g 参数。&lt;/p&gt;
+&lt;h1 id=&#34;运行脚本&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#运行脚本&#34;&gt;#&lt;/a&gt; 运行脚本&lt;/h1&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;pnpm &amp;lt;name&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;end&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#end&#34;&gt;#&lt;/a&gt; End&lt;/h1&gt;
+&lt;p&gt;目前常用的命令就是这些，之后学到会加以补充。&lt;/p&gt;
+</content>
+        <category term="coding" />
+        <updated>2023-12-08T12:57:21.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.misaka-fans.space/2023/12/06/%E4%B8%80%E6%AC%A1%E5%8F%91%E5%B8%83%E5%8D%9A%E6%96%87%E7%9A%84%E5%B0%9D%E8%AF%95/</id>
+        <title>一次发布博文的尝试</title>
+        <link rel="alternate" href="https://blog.misaka-fans.space/2023/12/06/%E4%B8%80%E6%AC%A1%E5%8F%91%E5%B8%83%E5%8D%9A%E6%96%87%E7%9A%84%E5%B0%9D%E8%AF%95/"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
+&lt;p&gt;Hello，你好，我是 Misaka09982（也可以叫 shbwb… 名字无所谓啦）&lt;br&gt;
+能成功搭起这个博客站让我感到非常惊喜，请教大佬，查找资料，不断尝试，debug… 让我进步了不少。如果你能看见这个博客站，那么首先，欢迎你来这里了解我，你可以在这里随心所欲地向我提问！感谢你的支持&lt;sup&gt; o&lt;/sup&gt;&lt;/p&gt;
+&lt;h1 id=&#34;what-does-it-do&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#what-does-it-do&#34;&gt;#&lt;/a&gt; What does it do?&lt;/h1&gt;
+&lt;p&gt;我会在这里发布自己学习编程（未来可能主要是 css，c，javascript）的一些收获和心得，亦或是笔记。&lt;br&gt;
+有的时候也会少量地整理一些学校里的书本知识（＾∇＾）&lt;/p&gt;
+&lt;p&gt;（前提是有时间 TAT&lt;/p&gt;
+&lt;h1 id=&#34;展望&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#展望&#34;&gt;#&lt;/a&gt; 展望&lt;/h1&gt;
+&lt;p&gt;在高中期间入门掌握 C 语言，css 小毕业。&lt;br&gt;
+以及收获期待的爱情）&lt;/p&gt;
+&lt;h2 id=&#34;end&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#end&#34;&gt;#&lt;/a&gt; End&lt;/h2&gt;
+</content>
+        <category term="gossip" />
+        <updated>2023-12-06T13:42:36.000Z</updated>
+    </entry>
+</feed>

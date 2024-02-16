@@ -1,0 +1,46 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Misaka09982的进步日记",
+    "description": "记录自己的每一次成长",
+    "home_page_url": "https://blog.misaka-fans.space",
+    "items": [
+        {
+            "id": "https://blog.misaka-fans.space/2024/02/16/hello-world/",
+            "url": "https://blog.misaka-fans.space/2024/02/16/hello-world/",
+            "title": "Hello World",
+            "date_published": "2024-02-16T03:23:12.329Z",
+            "content_html": "<p>Welcome to <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvLw==\">Hexo</span>! This is your very first post. Check <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv\">documentation</span> for more info. If you get any problems when using Hexo, you can find the answer in <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=\">troubleshooting</span> or you can ask me on <span class=\"exturl\" data-url=\"aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==\">GitHub</span>.</p>\n<h2 id=\"quick-start\"><a class=\"markdownIt-Anchor\" href=\"#quick-start\">#</a> Quick Start</h2>\n<h3 id=\"create-a-new-post\"><a class=\"markdownIt-Anchor\" href=\"#create-a-new-post\">#</a> Create a new post</h3>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo new <span class=\"string\">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s\">Writing</span></p>\n<h3 id=\"run-server\"><a class=\"markdownIt-Anchor\" href=\"#run-server\">#</a> Run server</h3>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo server</span><br></pre></td></tr></table></figure>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=\">Server</span></p>\n<h3 id=\"generate-static-files\"><a class=\"markdownIt-Anchor\" href=\"#generate-static-files\">#</a> Generate static files</h3>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo generate</span><br></pre></td></tr></table></figure>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s\">Generating</span></p>\n<h3 id=\"deploy-to-remote-sites\"><a class=\"markdownIt-Anchor\" href=\"#deploy-to-remote-sites\">#</a> Deploy to remote sites</h3>\n<figure class=\"highlight bash\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">$ hexo deploy</span><br></pre></td></tr></table></figure>\n<p>More info: <span class=\"exturl\" data-url=\"aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s\">Deployment</span></p>\n",
+            "tags": []
+        },
+        {
+            "id": "https://blog.misaka-fans.space/2024/01/24/GRUB-background-edit/",
+            "url": "https://blog.misaka-fans.space/2024/01/24/GRUB-background-edit/",
+            "title": "GRUB引导界面美化时可能发生的问题",
+            "date_published": "2024-01-24T00:07:18.000Z",
+            "content_html": "<p>在美化页面时，我们可能无法找到自己喜欢的主题。此时，可通过更换主题的背景来解决。</p>\n<p>在使用了’’‘tar’’' 命令解压了原本主题的 tar.gz 压缩包后，打开文件夹找到 background.jpg，并用自己的图片代替他。</p>\n<p>在这一步，最好记得使用和原图一样格式，一样分辨率的图片防止 GRUB 识别不到图片。</p>\n",
+            "tags": [
+                "Linux"
+            ]
+        },
+        {
+            "id": "https://blog.misaka-fans.space/2023/12/08/pnpm-study-note/",
+            "url": "https://blog.misaka-fans.space/2023/12/08/pnpm-study-note/",
+            "title": "一些在实践中学到的pnpm使用技巧",
+            "date_published": "2023-12-08T12:57:21.000Z",
+            "content_html": "<h1 id=\"0-前言\"><a class=\"markdownIt-Anchor\" href=\"#0-前言\">#</a> 0、前言</h1>\n<p>本文章按照 ubuntu 编写，其他系统请自行更换 brew 等工具</p>\n<h1 id=\"安装pnpm管理器\"><a class=\"markdownIt-Anchor\" href=\"#安装pnpm管理器\">#</a> 安装 pnpm 管理器</h1>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">npm i -g pnpm</span><br></pre></td></tr></table></figure>\n<p>全局安装 pnpm。<b>首先要记得提前安装 npm，nodejs&gt;10</b></p>\n<h1 id=\"使用npm安装-卸载包\"><a class=\"markdownIt-Anchor\" href=\"#使用npm安装-卸载包\">#</a> 使用 npm 安装、卸载包</h1>\n<p>安装：</p>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">pnpm install &lt;package-name&gt;</span><br></pre></td></tr></table></figure>\n<p>卸载：</p>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">pnpm remove &lt;package-name&gt;</span><br></pre></td></tr></table></figure>\n<p>安装所有项目依赖:</p>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">pnpm install</span><br></pre></td></tr></table></figure>\n<p>在运行项目前推荐优先运行！</p>\n<p>若要全局使用，加上 - g 参数。</p>\n<h1 id=\"运行脚本\"><a class=\"markdownIt-Anchor\" href=\"#运行脚本\">#</a> 运行脚本</h1>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">pnpm &lt;name&gt;</span><br></pre></td></tr></table></figure>\n<h1 id=\"end\"><a class=\"markdownIt-Anchor\" href=\"#end\">#</a> End</h1>\n<p>目前常用的命令就是这些，之后学到会加以补充。</p>\n",
+            "tags": [
+                "coding"
+            ]
+        },
+        {
+            "id": "https://blog.misaka-fans.space/2023/12/06/%E4%B8%80%E6%AC%A1%E5%8F%91%E5%B8%83%E5%8D%9A%E6%96%87%E7%9A%84%E5%B0%9D%E8%AF%95/",
+            "url": "https://blog.misaka-fans.space/2023/12/06/%E4%B8%80%E6%AC%A1%E5%8F%91%E5%B8%83%E5%8D%9A%E6%96%87%E7%9A%84%E5%B0%9D%E8%AF%95/",
+            "title": "一次发布博文的尝试",
+            "date_published": "2023-12-06T13:42:36.000Z",
+            "content_html": "<h1 id=\"前言\"><a class=\"markdownIt-Anchor\" href=\"#前言\">#</a> 前言</h1>\n<p>Hello，你好，我是 Misaka09982（也可以叫 shbwb… 名字无所谓啦）<br>\n能成功搭起这个博客站让我感到非常惊喜，请教大佬，查找资料，不断尝试，debug… 让我进步了不少。如果你能看见这个博客站，那么首先，欢迎你来这里了解我，你可以在这里随心所欲地向我提问！感谢你的支持<sup> o</sup></p>\n<h1 id=\"what-does-it-do\"><a class=\"markdownIt-Anchor\" href=\"#what-does-it-do\">#</a> What does it do?</h1>\n<p>我会在这里发布自己学习编程（未来可能主要是 css，c，javascript）的一些收获和心得，亦或是笔记。<br>\n有的时候也会少量地整理一些学校里的书本知识（＾∇＾）</p>\n<p>（前提是有时间 TAT</p>\n<h1 id=\"展望\"><a class=\"markdownIt-Anchor\" href=\"#展望\">#</a> 展望</h1>\n<p>在高中期间入门掌握 C 语言，css 小毕业。<br>\n以及收获期待的爱情）</p>\n<h2 id=\"end\"><a class=\"markdownIt-Anchor\" href=\"#end\">#</a> End</h2>\n",
+            "tags": [
+                "gossip"
+            ]
+        }
+    ]
+}
