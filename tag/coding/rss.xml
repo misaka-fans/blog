@@ -17,7 +17,7 @@
             <category>coding</category>
             <pubDate>Fri, 08 Dec 2023 20:57:21 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;0-前言&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#0-前言&#34;&gt;#&lt;/a&gt; 0、前言&lt;/h1&gt;
-&lt;p&gt;本文章按照 ubuntu 编写，其他系统请自行更换 brew 等工具&lt;/p&gt;
+&lt;p&gt;本文章按照 ubuntu 编写，其他系统请自行更换 brew 等工具。&lt;/p&gt;
 &lt;h1 id=&#34;安装pnpm管理器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#安装pnpm管理器&#34;&gt;#&lt;/a&gt; 安装 pnpm 管理器&lt;/h1&gt;
 &lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;npm i -g pnpm&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;全局安装 pnpm。&lt;b&gt;首先要记得提前安装 npm，nodejs&amp;gt;10&lt;/b&gt;&lt;/p&gt;
