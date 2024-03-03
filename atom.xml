@@ -13,21 +13,13 @@
         <title>C语言入门学习之数据类型Char的运用(随学习进度不断修改)</title>
         <link rel="alternate" href="https://blog.misaka-fans.space/2024/03/03/Clang-Study-Post-Day1/"/>
         <content type="html">&lt;h1 id=&#34;0-目前了解到的现象结论&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#0-目前了解到的现象结论&#34;&gt;#&lt;/a&gt; 0、目前了解到的现象 &amp;amp; 结论&lt;/h1&gt;
-&lt;p&gt;通过以下方法输出字符串时：&lt;br&gt;
-‘’‘c&lt;br&gt;
-// A&lt;br&gt;
-char x = ‘ABC’;&lt;br&gt;
-printf(&amp;quot;%c&amp;quot;, x); //C&lt;br&gt;
-‘’’&lt;/p&gt;
-&lt;p&gt;‘’‘c&lt;br&gt;
-// B&lt;br&gt;
-char *x = “ABC”;&lt;br&gt;
-printf(&amp;quot;%s&amp;quot;, x); //ABC&lt;br&gt;
-‘’’&lt;br&gt;
-本文章将会随学习进度补充更多用法。&lt;/p&gt;
+&lt;p&gt;通过以下方法输出字符串时：&lt;/p&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// A&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;char&lt;/span&gt; x = &lt;span class=&#34;string&#34;&gt;&amp;#x27;ABC&amp;#x27;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;printf&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;%c&amp;quot;&lt;/span&gt;, x); &lt;span class=&#34;comment&#34;&gt;//C&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&#34;highlight c&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// B&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;type&#34;&gt;char&lt;/span&gt; *x = &lt;span class=&#34;string&#34;&gt;&amp;quot;ABC&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;printf&lt;/span&gt;(&lt;span class=&#34;string&#34;&gt;&amp;quot;%s&amp;quot;&lt;/span&gt;, x); &lt;span class=&#34;comment&#34;&gt;//ABC&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;本文章将会随学习进度补充更多用法。&lt;/p&gt;
 &lt;h1 id=&#34;1-使用时应牢记的注意事项&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-使用时应牢记的注意事项&#34;&gt;#&lt;/a&gt; 1、使用时应牢记的注意事项&lt;/h1&gt;
-&lt;p&gt;A 号代码框，使用 % c 将会输出字符串内最后一位字符。&lt;b&gt;注意：此时应使用单引号，注意与反引号的区别&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;B 号代码框中，当 char 用作指针变量时，即&lt;b&gt;char *&lt;/b&gt;，字符串应被双引号框住，% s 将会输出这段字符串，% d 将字符串以其十进制方式输出，% c 输出一个字符（指针所指的字符。&lt;/p&gt;
+&lt;p&gt;A 号代码框，使用 &lt;code&gt;%c&lt;/code&gt;  将会输出字符串内最后一位字符。&lt;b&gt;注意：此时应使用单引号，注意与反引号的区别&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;B 号代码框中，当 char 用作指针变量时，即&lt;b&gt;char *&lt;/b&gt;，字符串应被双引号框住， &lt;code&gt;%s&lt;/code&gt;  将会输出这段字符串， &lt;code&gt;%d&lt;/code&gt;  将字符串以其十进制方式输出， &lt;code&gt;%c&lt;/code&gt;  输出一个字符（指针所指的字符。&lt;/p&gt;
 &lt;p&gt;即可简化理解为：单引号内为要打印的一个字符，而双引号中的内容为一串要打印的字符串（指针）。&lt;/p&gt;
 </content>
         <category term="coding" />
@@ -60,7 +52,7 @@ printf(&amp;quot;%s&amp;quot;, x); //ABC&lt;br&gt;
         <title>GRUB引导界面美化时可能发生的问题</title>
         <link rel="alternate" href="https://blog.misaka-fans.space/2024/01/24/GRUB-background-edit/"/>
         <content type="html">&lt;p&gt;在美化页面时，我们可能无法找到自己喜欢的主题。此时，可通过更换主题的背景来解决。&lt;/p&gt;
-&lt;p&gt;在使用了’’‘tar’’&#39; 命令解压了原本主题的 tar.gz 压缩包后，打开文件夹找到 background.jpg，并用自己的图片代替他。&lt;/p&gt;
+&lt;p&gt;在使用了 &lt;code&gt;tar&lt;/code&gt;  命令解压了原本主题的 tar.gz 压缩包后，打开文件夹找到 background.jpg，并用自己的图片代替他。&lt;/p&gt;
 &lt;p&gt;在这一步，最好记得使用和原图一样格式，一样分辨率的图片防止 GRUB 识别不到图片。&lt;/p&gt;
 </content>
         <category term="Linux" />

@@ -18,7 +18,7 @@
             <category>Linux</category>
             <pubDate>Wed, 24 Jan 2024 08:07:18 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;在美化页面时，我们可能无法找到自己喜欢的主题。此时，可通过更换主题的背景来解决。&lt;/p&gt;
-&lt;p&gt;在使用了’’‘tar’’&#39; 命令解压了原本主题的 tar.gz 压缩包后，打开文件夹找到 background.jpg，并用自己的图片代替他。&lt;/p&gt;
+&lt;p&gt;在使用了 &lt;code&gt;tar&lt;/code&gt;  命令解压了原本主题的 tar.gz 压缩包后，打开文件夹找到 background.jpg，并用自己的图片代替他。&lt;/p&gt;
 &lt;p&gt;在这一步，最好记得使用和原图一样格式，一样分辨率的图片防止 GRUB 识别不到图片。&lt;/p&gt;
  ]]></description>
         </item>

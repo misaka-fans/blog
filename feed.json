@@ -9,7 +9,7 @@
             "url": "https://blog.misaka-fans.space/2024/03/03/Clang-Study-Post-Day1/",
             "title": "C语言入门学习之数据类型Char的运用(随学习进度不断修改)",
             "date_published": "2024-03-03T05:59:32.000Z",
-            "content_html": "<h1 id=\"0-目前了解到的现象结论\"><a class=\"markdownIt-Anchor\" href=\"#0-目前了解到的现象结论\">#</a> 0、目前了解到的现象 &amp; 结论</h1>\n<p>通过以下方法输出字符串时：<br>\n‘’‘c<br>\n// A<br>\nchar x = ‘ABC’;<br>\nprintf(&quot;%c&quot;, x); //C<br>\n‘’’</p>\n<p>‘’‘c<br>\n// B<br>\nchar *x = “ABC”;<br>\nprintf(&quot;%s&quot;, x); //ABC<br>\n‘’’<br>\n本文章将会随学习进度补充更多用法。</p>\n<h1 id=\"1-使用时应牢记的注意事项\"><a class=\"markdownIt-Anchor\" href=\"#1-使用时应牢记的注意事项\">#</a> 1、使用时应牢记的注意事项</h1>\n<p>A 号代码框，使用 % c 将会输出字符串内最后一位字符。<b>注意：此时应使用单引号，注意与反引号的区别</b></p>\n<p>B 号代码框中，当 char 用作指针变量时，即<b>char *</b>，字符串应被双引号框住，% s 将会输出这段字符串，% d 将字符串以其十进制方式输出，% c 输出一个字符（指针所指的字符。</p>\n<p>即可简化理解为：单引号内为要打印的一个字符，而双引号中的内容为一串要打印的字符串（指针）。</p>\n",
+            "content_html": "<h1 id=\"0-目前了解到的现象结论\"><a class=\"markdownIt-Anchor\" href=\"#0-目前了解到的现象结论\">#</a> 0、目前了解到的现象 &amp; 结论</h1>\n<p>通过以下方法输出字符串时：</p>\n<figure class=\"highlight c\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br></pre></td><td class=\"code\"><pre><span class=\"line\"><span class=\"comment\">// A</span></span><br><span class=\"line\"><span class=\"type\">char</span> x = <span class=\"string\">&#x27;ABC&#x27;</span>;</span><br><span class=\"line\"><span class=\"built_in\">printf</span>(<span class=\"string\">&quot;%c&quot;</span>, x); <span class=\"comment\">//C</span></span><br></pre></td></tr></table></figure>\n<figure class=\"highlight c\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br></pre></td><td class=\"code\"><pre><span class=\"line\"><span class=\"comment\">// B</span></span><br><span class=\"line\"><span class=\"type\">char</span> *x = <span class=\"string\">&quot;ABC&quot;</span>;</span><br><span class=\"line\"><span class=\"built_in\">printf</span>(<span class=\"string\">&quot;%s&quot;</span>, x); <span class=\"comment\">//ABC</span></span><br></pre></td></tr></table></figure>\n<p>本文章将会随学习进度补充更多用法。</p>\n<h1 id=\"1-使用时应牢记的注意事项\"><a class=\"markdownIt-Anchor\" href=\"#1-使用时应牢记的注意事项\">#</a> 1、使用时应牢记的注意事项</h1>\n<p>A 号代码框，使用 <code>%c</code>  将会输出字符串内最后一位字符。<b>注意：此时应使用单引号，注意与反引号的区别</b></p>\n<p>B 号代码框中，当 char 用作指针变量时，即<b>char *</b>，字符串应被双引号框住， <code>%s</code>  将会输出这段字符串， <code>%d</code>  将字符串以其十进制方式输出， <code>%c</code>  输出一个字符（指针所指的字符。</p>\n<p>即可简化理解为：单引号内为要打印的一个字符，而双引号中的内容为一串要打印的字符串（指针）。</p>\n",
             "tags": [
                 "coding",
                 "study"
@@ -28,7 +28,7 @@
             "url": "https://blog.misaka-fans.space/2024/01/24/GRUB-background-edit/",
             "title": "GRUB引导界面美化时可能发生的问题",
             "date_published": "2024-01-24T00:07:18.000Z",
-            "content_html": "<p>在美化页面时，我们可能无法找到自己喜欢的主题。此时，可通过更换主题的背景来解决。</p>\n<p>在使用了’’‘tar’’' 命令解压了原本主题的 tar.gz 压缩包后，打开文件夹找到 background.jpg，并用自己的图片代替他。</p>\n<p>在这一步，最好记得使用和原图一样格式，一样分辨率的图片防止 GRUB 识别不到图片。</p>\n",
+            "content_html": "<p>在美化页面时，我们可能无法找到自己喜欢的主题。此时，可通过更换主题的背景来解决。</p>\n<p>在使用了 <code>tar</code>  命令解压了原本主题的 tar.gz 压缩包后，打开文件夹找到 background.jpg，并用自己的图片代替他。</p>\n<p>在这一步，最好记得使用和原图一样格式，一样分辨率的图片防止 GRUB 识别不到图片。</p>\n",
             "tags": [
                 "Linux"
             ]
