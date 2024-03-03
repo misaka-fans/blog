@@ -24,15 +24,15 @@
 <link rel="stylesheet" href="/css/app.css?v=0.2.5">
 
   
-  <meta name="keywords" content="Linux" />
+  <meta name="keywords" content="coding,study" />
 
 
-<link rel="canonical" href="https://blog.misaka-fans.space/2024/01/24/GRUB-background-edit/">
+<link rel="canonical" href="https://blog.misaka-fans.space/2024/03/03/Clang-Study-Post-Day1/">
 
 
 
   <title>
-GRUB引导界面美化时可能发生的问题 |
+C语言入门学习之数据类型Char的运用(随学习进度不断修改) |
 Misaka Home = Misaka09982的进步日记</title>
 <meta name="generator" content="Hexo 6.3.0"></head>
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -60,16 +60,16 @@ Misaka Home = Misaka09982的进步日记</title>
         <div id="brand">
           <div class="pjax">
           
-  <h1 itemprop="name headline">GRUB引导界面美化时可能发生的问题
+  <h1 itemprop="name headline">C语言入门学习之数据类型Char的运用(随学习进度不断修改)
   </h1>
   
 <div class="meta">
-  <span class="item" title="创建时间：2024-01-24 08:07:18">
+  <span class="item" title="创建时间：2024-03-03 13:59:32">
     <span class="icon">
       <i class="ic i-calendar"></i>
     </span>
     <span class="text">发表于</span>
-    <time itemprop="dateCreated datePublished" datetime="2024-01-24T08:07:18+08:00">2024-01-24</time>
+    <time itemprop="dateCreated datePublished" datetime="2024-03-03T13:59:32+08:00">2024-03-03</time>
   </span>
 </div>
 
@@ -101,14 +101,7 @@ Misaka Home = Misaka09982的进步日记</title>
 
       </div>
       <div id="imgs" class="pjax">
-        <ul>
-          <li class="item" data-background-image="http://www.dmoe.cc/random.php?804690"></li>
-          <li class="item" data-background-image="http://www.dmoe.cc/random.php?501248"></li>
-          <li class="item" data-background-image="http://www.dmoe.cc/random.php?953216"></li>
-          <li class="item" data-background-image="http://www.dmoe.cc/random.php?159327"></li>
-          <li class="item" data-background-image="http://www.dmoe.cc/random.php?811512"></li>
-          <li class="item" data-background-image="http://www.dmoe.cc/random.php?698640"></li>
-        </ul>
+          <img src="https://ts1.cn.mm.bing.net/th/id/R-C.9a864b6b5a4df041d6fddd72b6e12455?rik=ehi3u30l1%2fPx%2fQ&riu=http%3a%2f%2fwww.w3schools.cn%2fwp-content%2fuploads%2fc%2fc-logo.png&ehk=ZIVUd12vPYpOwaMUCTzsLkK8aukj5cnzsRADTdxoKfM%3d&risl=&pid=ImgRaw&r=0">
       </div>
     </header>
     <div id="waves">
@@ -136,7 +129,7 @@ Misaka Home = Misaka09982的进步日记</title>
 </div>
 
     <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN">
-  <link itemprop="mainEntityOfPage" href="https://blog.misaka-fans.space/2024/01/24/GRUB-background-edit/">
+  <link itemprop="mainEntityOfPage" href="https://blog.misaka-fans.space/2024/03/03/Clang-Study-Post-Day1/">
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="image" content="/images/profile.jpg">
@@ -151,12 +144,27 @@ Misaka Home = Misaka09982的进步日记</title>
   <div class="body md" itemprop="articleBody">
     
 
-    <p>在美化页面时，我们可能无法找到自己喜欢的主题。此时，可通过更换主题的背景来解决。</p>
-<p>在使用了’’‘tar’’' 命令解压了原本主题的 tar.gz 压缩包后，打开文件夹找到 background.jpg，并用自己的图片代替他。</p>
-<p>在这一步，最好记得使用和原图一样格式，一样分辨率的图片防止 GRUB 识别不到图片。</p>
+    <h1 id="0-目前了解到的现象结论"><a class="markdownIt-Anchor" href="#0-目前了解到的现象结论">#</a> 0、目前了解到的现象 &amp; 结论</h1>
+<p>通过以下方法输出字符串时：<br>
+‘’‘c<br>
+// A<br>
+char x = ‘ABC’;<br>
+printf(&quot;%c&quot;, x); //C<br>
+‘’’</p>
+<p>‘’‘c<br>
+// B<br>
+char *x = “ABC”;<br>
+printf(&quot;%s&quot;, x); //ABC<br>
+‘’’<br>
+本文章将会随学习进度补充更多用法。</p>
+<h1 id="1-使用时应牢记的注意事项"><a class="markdownIt-Anchor" href="#1-使用时应牢记的注意事项">#</a> 1、使用时应牢记的注意事项</h1>
+<p>A 号代码框，使用 % c 将会输出字符串内最后一位字符。<b>注意：此时应使用单引号，注意与反引号的区别</b></p>
+<p>B 号代码框中，当 char 用作指针变量时，即<b>char *</b>，字符串应被双引号框住，% s 将会输出这段字符串，% d 将字符串以其十进制方式输出，% c 输出一个字符（指针所指的字符。</p>
+<p>即可简化理解为：单引号内为要打印的一个字符，而双引号中的内容为一串要打印的字符串（指针）。</p>
 
       <div class="tags">
-          <a href="/tags/Linux/" rel="tag"><i class="ic i-tag"></i> Linux</a>
+          <a href="/tags/coding/" rel="tag"><i class="ic i-tag"></i> coding</a>
+          <a href="/tags/study/" rel="tag"><i class="ic i-tag"></i> study</a>
       </div>
   </div>
 
@@ -168,7 +176,7 @@ Misaka Home = Misaka09982的进步日记</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2024-02-16 11:23:12" itemprop="dateModified" datetime="2024-02-16T11:23:12+08:00">2024-02-16</time>
+    <time title="修改时间：2024-03-03 14:23:13" itemprop="dateModified" datetime="2024-03-03T14:23:13+08:00">2024-03-03</time>
   </span>
 </div>
 
@@ -204,7 +212,7 @@ Misaka Home = Misaka09982的进步日记</title>
   </li>
   <li class="link">
     <strong>本文链接：</strong>
-    <a href="https://blog.misaka-fans.space/2024/01/24/GRUB-background-edit/" title="GRUB引导界面美化时可能发生的问题">https://blog.misaka-fans.space/2024/01/24/GRUB-background-edit/</a>
+    <a href="https://blog.misaka-fans.space/2024/03/03/Clang-Study-Post-Day1/" title="C语言入门学习之数据类型Char的运用(随学习进度不断修改)">https://blog.misaka-fans.space/2024/03/03/Clang-Study-Post-Day1/</a>
   </li>
   <li class="license">
     <strong>版权声明： </strong>本站所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 许可协议。转载请注明出处！
@@ -223,22 +231,14 @@ Misaka Home = Misaka09982的进步日记</title>
     <div class="item left">
       
 
-  <a href="/2023/12/08/pnpm-study-note/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;m365-dev.com&#x2F;wp-content&#x2F;uploads&#x2F;2018&#x2F;10&#x2F;pnpm1.png" title="一些在实践中学到的pnpm使用技巧">
+  <a href="/2024/02/16/hello-world/" itemprop="url" rel="prev" data-background-image="http:&#x2F;&#x2F;www.dmoe.cc&#x2F;random.php?168632" title="Hello World">
   <span class="type">上一篇</span>
-  <span class="category"><i class="ic i-flag"></i> </span>
-  <h3>一些在实践中学到的pnpm使用技巧</h3>
-  </a>
-
-    </div>
-    <div class="item right">
-      
-
-  <a href="/2024/02/16/hello-world/" itemprop="url" rel="next" data-background-image="http:&#x2F;&#x2F;www.dmoe.cc&#x2F;random.php?463831" title="Hello World">
-  <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> </span>
   <h3>Hello World</h3>
   </a>
 
+    </div>
+    <div class="item right">
     </div>
 </div>
 
@@ -255,6 +255,7 @@ Misaka Home = Misaka09982的进步日记</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="文章目录">
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#0-%E7%9B%AE%E5%89%8D%E4%BA%86%E8%A7%A3%E5%88%B0%E7%9A%84%E7%8E%B0%E8%B1%A1%E7%BB%93%E8%AE%BA"><span class="toc-number">1.</span> <span class="toc-text"> 0、目前了解到的现象 &amp; 结论</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1-%E4%BD%BF%E7%94%A8%E6%97%B6%E5%BA%94%E7%89%A2%E8%AE%B0%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-number">2.</span> <span class="toc-text"> 1、使用时应牢记的注意事项</span></a></li></ol>
       </div>
       <div class="related panel pjax" data-title="系列文章">
       </div>
@@ -323,12 +324,10 @@ Misaka Home = Misaka09982的进步日记</title>
 
   <ul id="quick">
     <li class="prev pjax">
-        <a href="/2023/12/08/pnpm-study-note/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a>
     </li>
     <li class="up"><i class="ic i-arrow-up"></i></li>
     <li class="down"><i class="ic i-arrow-down"></i></li>
     <li class="next pjax">
-        <a href="/2024/02/16/hello-world/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a>
     </li>
     <li class="percent"></li>
   </ul>
@@ -352,25 +351,16 @@ Misaka Home = Misaka09982的进步日记</title>
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2024/02/16/hello-world/" title="Hello World">Hello World</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
-    <span><a href="/2023/12/06/%E4%B8%80%E6%AC%A1%E5%8F%91%E5%B8%83%E5%8D%9A%E6%96%87%E7%9A%84%E5%B0%9D%E8%AF%95/" title="一次发布博文的尝试">一次发布博文的尝试</a></span>
-  </li>
-
-      
-  <li class="item">
-    
-<div class="breadcrumb">
-</div>
-
     <span><a href="/2024/03/03/Clang-Study-Post-Day1/" title="C语言入门学习之数据类型Char的运用(随学习进度不断修改)">C语言入门学习之数据类型Char的运用(随学习进度不断修改)</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2024/01/24/GRUB-background-edit/" title="GRUB引导界面美化时可能发生的问题">GRUB引导界面美化时可能发生的问题</a></span>
   </li>
 
       
@@ -388,7 +378,16 @@ Misaka Home = Misaka09982的进步日记</title>
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2024/01/24/GRUB-background-edit/" title="GRUB引导界面美化时可能发生的问题">GRUB引导界面美化时可能发生的问题</a></span>
+    <span><a href="/2024/02/16/hello-world/" title="Hello World">Hello World</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2023/12/06/%E4%B8%80%E6%AC%A1%E5%8F%91%E5%B8%83%E5%8D%9A%E6%96%87%E7%9A%84%E5%B0%9D%E8%AF%95/" title="一次发布博文的尝试">一次发布博文的尝试</a></span>
   </li>
 
   </ul>
@@ -419,7 +418,7 @@ Misaka Home = Misaka09982的进步日记</title>
   </div>
 <script data-config type="text/javascript">
   var LOCAL = {
-    path: '2024/01/24/GRUB-background-edit/',
+    path: '2024/03/03/Clang-Study-Post-Day1/',
     favicon: {
       show: "（●´3｀●）やれやれだぜ",
       hide: "(´Д｀)大変だ！"
