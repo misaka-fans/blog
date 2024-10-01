@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Misaka09982的进步日记 • All posts by \"linux\" tag",
+    "description": "记录自己的每一次成长",
+    "home_page_url": "https://blog.misaka-fans.space",
+    "items": [
+        {
+            "id": "https://blog.misaka-fans.space/2024/01/24/GRUB-background-edit/",
+            "url": "https://blog.misaka-fans.space/2024/01/24/GRUB-background-edit/",
+            "title": "GRUB引导界面美化时可能发生的问题",
+            "date_published": "2024-01-24T00:07:18.000Z",
+            "content_html": "<p>在美化页面时，我们可能无法找到自己喜欢的主题。此时，可通过更换主题的背景来解决。</p>\n<p>在使用了’’‘tar’’' 命令解压了原本主题的 tar.gz 压缩包后，打开文件夹找到 background.jpg，并用自己的图片代替他。</p>\n<p>在这一步，最好记得使用和原图一样格式，一样分辨率的图片防止 GRUB 识别不到图片。</p>\n",
+            "tags": [
+                "Linux"
+            ]
+        }
+    ]
+}
