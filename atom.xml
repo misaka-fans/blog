@@ -12,7 +12,7 @@
         <id>https://blog.misaka-fans.space/2024/10/01/Test-post/</id>
         <title>Test post</title>
         <link rel="alternate" href="https://blog.misaka-fans.space/2024/10/01/Test-post/"/>
-        <content type="html">&lt;p&gt;服务器搬迁，仓库搬迁测试文章&lt;/p&gt;
+        <content type="html">&lt;p&gt;服务器搬迁，仓库搬迁测试文章。&lt;/p&gt;
 </content>
         <category term="study" />
         <updated>2024-10-01T14:01:37.000Z</updated>
